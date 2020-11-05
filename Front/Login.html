@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"></script>
+    
+    <title>Login</title>
+    </head>
+
+    <body style="background-color: white;">
+        <div class="container" >
+            <div style="width: 50%;height: 50%;min-width: 200px;max-width: 400px;padding: 40px;margin: auto;position: absolute; top: 0; left: 0; bottom: 0; right: 0;">
+                <div class="form-group">
+                    <h1 class= "text-danger text-center" >Iniciar Sesión</h1>
+                </div>
+            <form id="product-form "action="/login" method="POST" style="width:450px;" class="border p-5">  
+              <div style="margin: auto; margin-bottom: 10px; width:224px; height:104px; background-image:url('https://www.futbolbogotano.com/wp-content/uploads/2018/09/Logo-LFB.png');"></div> 
+                <div class="form-group">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" class="form-control" name="Email" placeholder="Ej. ejemplo@mail.com">
+                </div>
+                <div class="form-group">   
+                        <label for="password">Contraseña</label>
+                        <input type="password" class="form-control" name="Contraseña" placeholder="Ingrese su Contraseña">
+                </div>
+                <div>
+                    <a href="./signup">¿No tienes cuenta? Regístrate</a>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-secondary" style="width: 110px;margin-left: 50%;transform: translateX(-50%);">Guardar</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </body>
+    
+
+</html>
